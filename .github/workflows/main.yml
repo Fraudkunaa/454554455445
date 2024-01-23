@@ -14,7 +14,7 @@ def calculate(expression):
     return eval(expression)
 result = calculate("10 / 2 + 3 * 5")
 print(result)
-result = calculate("10 / 0")  # Ділення на нуль
+result = calculate("10 / 0") 
 print(result)
-result = calculate("10 + 'abc'")  # Невірний тип даних
+result = calculate("10 + 'abc'")  
 print(result)
